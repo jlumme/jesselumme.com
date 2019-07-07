@@ -16,7 +16,6 @@ const StyledIcon = styled(FontAwesomeIcon)`
 
 export default () => (
   <Footer>
-    <hr />
     <a
       href="https://github.com/jlumme"
       target="_blank"
