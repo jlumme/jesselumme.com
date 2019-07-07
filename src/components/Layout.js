@@ -1,10 +1,10 @@
 import React from "react"
-import Header from'./Header'
-import Footer from './Footer'
+import Header from "./Header"
+import Footer from "./Footer"
 
-export default ({ children }) => (
+export default ({ children, data }) => (
   <div>
-    <Header />
+    <Header data={data} />
     {children}
     <Footer />
   </div>
